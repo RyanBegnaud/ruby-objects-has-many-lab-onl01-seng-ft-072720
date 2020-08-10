@@ -19,4 +19,6 @@ class Author
   end
   
   def self.post_count 
+    count = Post.all.count 
+    count 
 end
